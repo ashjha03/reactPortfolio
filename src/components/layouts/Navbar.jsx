@@ -28,7 +28,7 @@ const Navbar = ({theme, handleClick}) => {
           Contact
         </a>
       </div>
-      <div className="chooseTheme">
+      <div className="chooseTheme lg:text-start text-center pt-2 lg:pt-0">
         <button onClick={handleClick} className="btn mr-1">Change Theme</button>
       </div>
     </nav>

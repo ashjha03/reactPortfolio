@@ -3,6 +3,7 @@ import About from "./components/About";
 import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import Services from "./components/services/Services";
+import Contact from "./components/Contact";
 
 export default function App() {
   const themes = ["dark", "halloween", "light", "luxury", "forest", "cupcake", "bumblebee", "emerald", "retro", "valentine", "coffee"];
@@ -19,6 +20,7 @@ export default function App() {
       <Navbar handleClick={handleClick} theme={theme} />
       <About theme={theme} />
       <Services theme={theme} />
+      <Contact theme={theme} />
       <Footer theme={theme} />
     </div>
   );
