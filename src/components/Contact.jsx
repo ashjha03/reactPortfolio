@@ -3,13 +3,13 @@ import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from "react-icons/ai"
 
 const Contact = ({theme}) => {
   return (
-    <div data-theme={theme} className="py-10 lg:px-8 px-3 border-t">
+    <div data-theme={theme} id="contact" className="py-10 lg:px-8 px-3 border-t">
       <div className="contactHead text-center pb-5">
-        <h1 className="text-5xl">Contact Me</h1>
+        <h1 className="text-6xl  font-bold">Contact Me</h1>
       </div>
-      <div className="contactBox lg:flex lg:justify-center lg:items-center">
+      <div className="contactBox lg:flex lg:justify-center lg:items-center lg:px-10">
         <div className="contact-form lg:w-[50%] py-4">
-            <div className="contact-data-head text-4xl pb-3">Message Me</div>
+            <div className="contact-data-head text-4xl pb-3 ">Message Me</div>
             <form>
                 <div className="inputBox pb-3">
                     <input type="text" placeholder="Name" className="p-3 w-[90%] border rounded-lg" />
@@ -27,7 +27,7 @@ const Contact = ({theme}) => {
             </form>
         </div>
         <div className="contact-data lg:w-[50%] py-4">
-            <div className="contact-data-head text-4xl pb-3">Get in touch</div>
+            <div className="contact-data-head text-4xl pb-3 ">Get in touch</div>
             <div className="contact-data-data">
                 <p className="text-lg pb-10">I am Ashish Jha, a Full Stack Web Developer/designer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers.</p>
                 <p className="text-lg pb-10">Wanna contact me, you can fill the contact form attached and I'll reach you at the earliest.</p>

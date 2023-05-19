@@ -16,7 +16,7 @@ const Services = ({theme}) => {
   return (
     <div id="services" data-theme={theme} className="lg:p-10 py-16 px-5 border-t">
       <div className="heading text-center pb-10">
-        <h1 className="text-6xl text-secondary font-bold">Services</h1>
+        <h1 className="text-6xl font-bold">Services</h1>
       </div>
       <div className="serviceCards grid gap-8 lg:grid-cols-3">
         {serviceData.map((service, index) => (
