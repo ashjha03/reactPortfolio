@@ -11,7 +11,6 @@ const Services = ({theme}) => {
 
         `},
     ]
-    console.log(serviceData[0].title);
 
   return (
     <div id="services" data-theme={theme} className="lg:p-10 py-16 px-5 border-t">

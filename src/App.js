@@ -1,5 +1,6 @@
 import { useState } from "react";
 import About from "./components/About";
+import {BrowserRouter as Router} from 'react-router-dom';
 import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import Services from "./components/services/Services";
@@ -18,7 +19,7 @@ export default function App() {
   };
 
   return (
-    <div className="">
+    <Router>
       <Navbar handleClick={handleClick} theme={theme} />
       <Home theme={theme} />
       <Projects theme={theme} />
@@ -26,6 +27,6 @@ export default function App() {
       <Services theme={theme} />
       <Contact theme={theme} />
       <Footer theme={theme} />
-    </div>
+    </Router>
   );
 }
