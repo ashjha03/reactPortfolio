@@ -2,7 +2,7 @@
 
 const About = ({theme}) => {
   return (
-    <div data-theme={theme} className="lg:flex p-3 lg:items-center lg:justify-center lg:p-10">
+    <div data-theme={theme} id="about" className="lg:flex p-3 lg:items-center lg:justify-center lg:p-10">
         <div className="skills lg:w-[50%] pb-10 lg:pb-0">
             <div className="aboutMe lg:flex lg:justify-around text-center lg:text-start lg:items-center lg:mb-6">
                 <div className="profileImg rounded-lg ml-[5rem] lg:ml-0 pb-4 lg:pb-0">
