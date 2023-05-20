@@ -84,10 +84,10 @@ const About = ({theme}) => {
         </div>
         <div className="about lg:w-[50%] lg:p-5">
             <h1 className="text-5xl pb-5 font-bold">About Me</h1>
-            <p className="text-lg pb-3">Hi! I am Ashish Jha, a Full Stack Web Developer/designer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2020. I enjoy creating beautifully designed, intuitive and functional websites.</p>
-            <p className="text-lg pb-3">For over past 1 year, I have worked for some of the best digital agencies and wonderful clients to create some award winning works. And, I can make this happen for your business as well. I'm a Professional Full Stack Web Developer having excellent knowledge of HTML, CSS, JavaScript, NodeJs, MongoDb, WordPress and Bootstrap.</p>
-            <p className="text-lg pb-3">Being a Full Stack Web Developer I also have good command in Web Designing and I can made you excellent designs in very less times. I'm a future software Engineer as well and hence have a good command in coding language JavaScript.</p>
-            <p className="text-lg pb-3">Wanna know something more about me, just fill the contact form and I'll get to you very soon.</p>
+            <p className="text-lg pb-3">Hello! I'm Ashish Jha, a passionate Full Stack Web Developer/designer dedicated to creating exceptional web experiences. With a strong focus on design and coding, I have been pursuing my passion for web development since 2020. I take great joy in crafting beautifully designed, user-friendly websites that seamlessly blend aesthetics and functionality.</p>
+            <p className="text-lg pb-3">Over the past year, I have had the privilege of working with renowned digital agencies and amazing clients, resulting in the creation of award-winning projects. I bring this expertise and creativity to help elevate your business. As a Professional Full Stack Web Developer, I possess extensive knowledge of HTML, CSS, JavaScript, ReactJS, NextJS, NodeJS, MongoDB, Tailwind CSS and Bootstrap.</p>
+            <p className="text-lg pb-3">My skills extend beyond development, as I also excel in Web Designing. I can deliver outstanding designs promptly, ensuring a seamless and visually appealing user experience. Additionally, as a future software engineer, I have a solid command of JavaScript, a versatile and powerful programming language.</p>
+            <p className="text-lg pb-3">If you'd like to learn more about me or discuss your project, please feel free to reach out by filling out the contact form. I look forward to connecting with you soon.</p>
         </div>
     </div>
   )

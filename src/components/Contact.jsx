@@ -77,13 +77,15 @@ const Contact = ({ theme }) => {
           <div className="contact-data-head text-4xl pb-3 ">Get in touch</div>
           <div className="contact-data-data">
             <p className="text-lg pb-10">
-              I am Ashish Jha, a Full Stack Web Developer/designer focused on
-              crafting great web experiences. Designing and Coding have been my
-              passion since the days I started working with computers.
+              Ashish Jha, a passionate Full Stack Web Developer/designer
+              dedicated to creating exceptional web experiences. With a strong
+              focus on design and coding
             </p>
             <p className="text-lg pb-10">
-              Wanna contact me, you can fill the contact form attached and I'll
-              reach you at the earliest.
+              If you'd like to get in touch with me, please take a moment to
+              fill out the attached contact form. I assure you that I will
+              respond promptly and look forward to connecting with you soon.
+              Let's collaborate and create something amazing together!
             </p>
             <div className="contact-links">
               <div className="mail flex items-center text-xl pb-1">

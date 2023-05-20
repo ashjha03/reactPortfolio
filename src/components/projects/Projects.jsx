@@ -16,7 +16,7 @@ const Projects = ({theme}) => {
                     <h1 className="text-3xl font-bold">YouTube Clone</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit veritatis enim non molestias ipsum accusantium. Officiis laudantium fugit.</p>
+                    <p className="text-lg">By combining the flexibility of React with the extensive features provided by the YouTube API v3, MyTubeClone delivers a feature-rich YouTube-like experience. </p>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ const Projects = ({theme}) => {
                     <h1 className="text-3xl font-bold">Postify</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit veritatis enim non molestias ipsum accusantium. Officiis laudantium fugit.</p>
+                    <p className="text-lg">A feature-rich web application built with Node.js, EJS, MongoDB, and JavaScript. Postify provides seamless CRUD (Create, Read, Update, Delete) operations, allowing users to effortlessly manage their content.</p>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ const Projects = ({theme}) => {
                     <h1 className="text-3xl font-bold">Gauri Shankar Rishte Naate Kendra</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit veritatis enim non molestias ipsum accusantium. Officiis laudantium fugit.</p>
+                    <p className="text-lg">A dedicated matrimony website catering to the needs of individuals seeking life partners. Created with HTML, CSS, and JavaScript, this platform provides a user-friendly interface for users.</p>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ const Projects = ({theme}) => {
                     <h1 className="text-3xl font-bold">Personal Portfolio</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit veritatis enim non molestias ipsum accusantium. Officiis laudantium fugit.</p>
+                    <p className="text-lg"> A stunning website built with ReactJS, Tailwind CSS, and DaisyUI. This portfolio showcases my skills, projects, and achievements in a visually appealing and responsive design. Experience my professional journey and expertise through My Portfolio today.</p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@ const Projects = ({theme}) => {
                     <h1 className="text-3xl font-bold">Shree Ram Medimed</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit veritatis enim non molestias ipsum accusantium. Officiis laudantium fugit.</p>
+                    <p className="text-lg">A professional website representing an orthopaedic company specializing in selling their high-quality products. Created with HTML, CSS, and JavaScript, this website offers a user-friendly interface where visitors can explore a range of orthopaedic products.</p>
                 </div>
             </div>
         </div>
