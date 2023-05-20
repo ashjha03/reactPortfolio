@@ -17,7 +17,7 @@ const Services = ({theme}) => {
       <div className="heading text-center pb-10">
         <h1 className="text-6xl font-bold">Services</h1>
       </div>
-      <div className="serviceCards grid gap-8 lg:grid-cols-3">
+      <div className="serviceCards lg:px-18 grid gap-8 lg:grid-cols-3">
         {serviceData.map((service, index) => (
             <ServiceCard key={index} index={index} title={service.title} body={service.body} />
             ))}

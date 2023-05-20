@@ -28,8 +28,8 @@ const Home = ({ theme }) => {
         />
       </div>
       <div className="homeContent lg:w-[60%] lg:p-10">
-        <h1 className="text-5xl pb-5 pl-5 pt-5 lg:pt-0">Hello !</h1>
-        <h1 className="text-8xl pb-5">Ashish Jha</h1>
+        <h1 className="text-4xl lg:text-5xl pb-5 pl-5 pt-5 lg:pt-0">Hello !</h1>
+        <h1 className="text-6xl lg:text-8xl pb-5">Ashish Jha</h1>
         <TypeAnimation
           sequence={[
             "Web Developer",
@@ -70,7 +70,7 @@ const Home = ({ theme }) => {
             <AiFillTwitterCircle />
           </a>
           <a
-            href="https://github.com/ashishjha"
+            href="https://www.instagram.com/ashjha03/"
             target="_blank"
             rel="noreferrer"
             className="hover:scale-150 transition-all link text-4xl pr-2"
@@ -78,7 +78,7 @@ const Home = ({ theme }) => {
             <AiFillInstagram />
           </a>
           <a
-            href="https://github.com/ashishjha"
+            href="https://www.facebook.com/ashjha03"
             target="_blank"
             rel="noreferrer"
             className="hover:scale-150 transition-all link text-4xl pr-2"

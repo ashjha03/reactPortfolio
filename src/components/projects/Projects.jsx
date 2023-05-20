@@ -6,69 +6,74 @@ const Projects = ({theme}) => {
       <div className="project-head text-center pb-5">
         <h1 className="text-7xl font-bold">My Work</h1>
       </div>
-      <div className="projects pt-5 grid lg:grid-cols-3 gap-8">
-        <div className="project-box shadow-lg hover:scale-105 transition-all border-2 rounded-xl">
+      <div className="projects lg:px-24 pt-5 grid lg:grid-cols-3 gap-8">
+        <div className="project-box p-3 shadow-lg hover:scale-105 transition-all duration-300 border-2 rounded-xl">
             <a href="https://youtube-ashjha03.vercel.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../../assets/Youtubeclone.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Youtubeclone.png")} className='lg:h-[205px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
                     <h1 className="text-3xl font-bold">YouTube Clone</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">By combining the flexibility of React with the extensive features provided by the YouTube API v3, MyTubeClone delivers a feature-rich YouTube-like experience. </p>
+                    <p className="text-lg pb-2">MyTubeClone delivers a feature-rich YouTube-like experience. </p>
+                    <p className="text-md font-bold">ReactJS, YouTube v3 API</p>
                 </div>
             </div>
         </div>
-        <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
+        <div className="project-box p-3 border-2 hover:scale-105 duration-300 shadow-lg rounded-xl">
             <a href="https://postify.cyclic.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../../assets/Postify.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Postify.png")} className='lg:h-[205px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
                     <h1 className="text-3xl font-bold">Postify</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">A feature-rich web application built with Node.js, EJS, MongoDB, and JavaScript. Postify provides seamless CRUD (Create, Read, Update, Delete) operations, allowing users to effortlessly manage their content.</p>
+                    <p className="text-lg pb-2">Postify provides seamless CRUD operations, allowing users to effortlessly manage their content.</p>
+                    <p className="text-md font-bold">NodeJS, EJS, MongoDB, JavaScript</p>
                 </div>
             </div>
         </div>
-        <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
+        <div className="project-box p-3 border-2 hover:scale-105 duration-300 shadow-lg rounded-xl">
             <a href="https://gaurishankarrishtenaatekendra.netlify.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../../assets/Gsrnk.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Gsrnk.png")} className='lg:h-[205px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
                     <h1 className="text-3xl font-bold">Gauri Shankar Rishte Naate Kendra</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">A dedicated matrimony website catering to the needs of individuals seeking life partners. Created with HTML, CSS, and JavaScript, this platform provides a user-friendly interface for users.</p>
+                    <p className="text-lg pb-2">A dedicated matrimony website catering to the needs of individuals seeking life partners.</p>
+                    <p className="text-md font-bold">HTML, CSS, JavaScript</p>
                 </div>
             </div>
         </div>
-        <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
+        <div className="project-box p-3 border-2 hover:scale-105 duration-300 shadow-lg rounded-xl">
             <a href="/" rel="noreferrer" className="box-img mb-2 border-b">
-                <img src={require("../../assets/Portfolio.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Portfolio.png")} className='lg:h-[205px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
                     <h1 className="text-3xl font-bold">Personal Portfolio</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg"> A stunning website built with ReactJS, Tailwind CSS, and DaisyUI. This portfolio showcases my skills, projects, and achievements in a visually appealing and responsive design. Experience my professional journey and expertise through My Portfolio today.</p>
+                    <p className="text-lg pb-2">Experience my professional journey and expertise through My Portfolio today.</p>
+                    <p className="text-md font-bold">ReactJS, Tailwind CSS and DaisyUI</p>
                 </div>
             </div>
         </div>
-        <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
+        <div className="project-box p-3 border-2 hover:scale-105 duration-300 shadow-lg rounded-xl">
             <a href="https://shreerammedimed.netlify.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../../assets/Srm.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Srm.png")} className='lg:h-[205px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
                     <h1 className="text-3xl font-bold">Shree Ram Medimed</h1>
                 </div>
                 <div className="project-about">
-                    <p className="text-lg">A professional website representing an orthopaedic company specializing in selling their high-quality products. Created with HTML, CSS, and JavaScript, this website offers a user-friendly interface where visitors can explore a range of orthopaedic products.</p>
+                    <p className="text-lg pb-2">A professional website representing an orthopaedic company specializing in selling their high-quality products.</p>
+                    <p className="text-md font-bold">HTML, CSS, and JavaScript</p>
                 </div>
             </div>
         </div>

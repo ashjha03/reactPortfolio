@@ -15,7 +15,7 @@ const Contact = ({ theme }) => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => navigate("/thank-you/"))
+      .then(() => navigate('/thankyou'))
       .catch((error) => alert(error));
   };
 
@@ -92,18 +92,18 @@ const Contact = ({ theme }) => {
                 <SiGmail className="pr-3 text-3xl" />
                 ashjha2002@gmail.com
               </div>
-              <div className="github flex items-center text-xl pb-1">
+              <a href="https://github.com/ashjha03" rel="noreferrer" target="_blank" className="github flex items-center text-xl pb-1">
                 <AiFillGithub className="pr-3 text-3xl" />
                 @ashjha03
-              </div>
-              <div className="linkedin flex items-center text-xl pb-1">
+              </a>
+              <a href="https://linkedin.com/in/ashjha03" rel="noreferrer" target="_blank" className="linkedin flex items-center text-xl pb-1">
                 <AiFillLinkedin className="pr-3 text-3xl" />
                 @ashjha03
-              </div>
-              <div className="insta flex items-center text-xl pb-1">
+              </a>
+              <a href="https://instagram.com/ashjha03" rel="noreferrer" target="_blank" className="insta flex items-center text-xl pb-1">
                 <AiFillInstagram className="pr-3 text-3xl" />
                 @ashjha03
-              </div>
+              </a>
             </div>
           </div>
         </div>
