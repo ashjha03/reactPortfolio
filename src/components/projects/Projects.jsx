@@ -2,7 +2,7 @@
 
 const Projects = ({theme}) => {
   return (
-    <div data-theme={theme} id="projects" className='py-10 lg:px-10 px-4'>
+    <div data-theme={theme} id="projects" className='py-10 lg:px-10 px-4 border-b'>
       <div className="project-head text-center pb-5">
         <h1 className="text-7xl font-bold">My Work</h1>
       </div>
@@ -21,7 +21,7 @@ const Projects = ({theme}) => {
             </div>
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
-            <a href="https://postify.onrender.com/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
+            <a href="https://postify.cyclic.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
                 <img src={require("../../assets/Postify.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">

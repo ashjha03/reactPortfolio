@@ -11,21 +11,21 @@ const Navbar = ({theme, handleClick}) => {
         <img className="w-[50px] pr-3" src={require("../../assets/profile.png")} alt="" />
         <h1 className="text-3xl font-bold">Ashish Jha</h1>
       </div>
-      <div className="navLinks">
-        <a className="pr-5" href="/">
-          Home
+      <div className="navLinks flex">
+        <a className="pr-5 transition-all" href="/">
+          <p className="hover:scale-110 transition-all">Home</p>
         </a>
         <a className="pr-5" href="#projects">
-          Projects
+        <p className="hover:scale-110 transition-all">Projects</p>
         </a>
         <a className="pr-5" href="#about">
-          About
+        <p className="hover:scale-110 transition-all">About</p>
         </a>
         <a className="pr-5" href="#services">
-          Services
+        <p className="hover:scale-110 transition-all">Services</p>
         </a>
         <a className="pr-5" href="#contact">
-          Contact
+        <p className="hover:scale-110 transition-all">Contact</p>
         </a>
       </div>
       <div className="chooseTheme lg:text-start text-center pt-2 lg:pt-0">
