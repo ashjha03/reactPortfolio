@@ -8,7 +8,7 @@ const Navbar = ({theme, handleClick}) => {
       className="lg:flex py-5 px-2 border-b md:px-10 justify-between items-center w-full overflow-scroll"
     >
       <div className="navHead flex items-center justify-center lg:pb-0 pb-2 lg:text-start text-center">
-        <img className="w-[50px] pr-3" src={require("../profile.png")} alt="" />
+        <img className="w-[50px] pr-3" src={require("../../assets/profile.png")} alt="" />
         <h1 className="text-3xl font-bold">Ashish Jha</h1>
       </div>
       <div className="navLinks">

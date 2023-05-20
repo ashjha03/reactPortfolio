@@ -9,7 +9,7 @@ const Projects = ({theme}) => {
       <div className="projects pt-5 grid lg:grid-cols-3 gap-8">
         <div className="project-box shadow-lg hover:scale-105 transition-all border-2 rounded-xl">
             <a href="https://youtube-ashjha03.vercel.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../Youtubeclone.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Youtubeclone.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
@@ -22,7 +22,7 @@ const Projects = ({theme}) => {
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
             <a href="https://postify.onrender.com/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../Postify.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Postify.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
@@ -35,7 +35,7 @@ const Projects = ({theme}) => {
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
             <a href="https://gaurishankarrishtenaatekendra.netlify.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../Gsrnk.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Gsrnk.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
@@ -48,7 +48,7 @@ const Projects = ({theme}) => {
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
             <a href="/" rel="noreferrer" className="box-img mb-2 border-b">
-                <img src={require("../Portfolio.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Portfolio.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">
@@ -61,7 +61,7 @@ const Projects = ({theme}) => {
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
             <a href="https://shreerammedimed.netlify.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
-                <img src={require("../Srm.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
+                <img src={require("../../assets/Srm.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">
                 <div className="project-head text-center pb-2">

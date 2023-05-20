@@ -6,7 +6,7 @@ const About = ({theme}) => {
         <div className="skills lg:w-[50%] pb-10 lg:pb-0">
             <div className="aboutMe lg:flex lg:justify-around text-center lg:text-start lg:items-center lg:mb-6">
                 <div className="profileImg rounded-lg ml-[5rem] lg:ml-0 pb-4 lg:pb-0">
-                    <img className="h-[150px] rounded-2xl" src={require("./profile.png")} alt="profile" />
+                    <img className="h-[150px] rounded-2xl" src={require("../assets/profile.png")} alt="profile" />
                 </div>
                 <div className="myDetails  pb-4 lg:pb-0">
                     <p className="text-lg pb-2">
