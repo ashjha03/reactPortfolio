@@ -12,16 +12,16 @@ const Contact = ({theme}) => {
             <div className="contact-data-head text-4xl pb-3 ">Message Me</div>
             <form>
                 <div className="inputBox pb-3">
-                    <input type="text" placeholder="Name" className="p-3 w-[90%] border rounded-lg" />
+                    <input type="text" placeholder="Name" className="p-3 w-[90%] border shadow rounded-lg" />
                 </div>
                 <div className="inputBox pb-3">
-                    <input type="email" placeholder="Email" className="p-3 w-[90%] border rounded-lg" />
+                    <input type="email" placeholder="Email" className="p-3 w-[90%] border rounded-lg shadow" />
                 </div>
                 <div className="inputBox pb-3">
-                    <input type="text" placeholder="Message" className="p-3 w-[90%] border rounded-lg" />
+                    <input type="text" placeholder="Message" className="p-3 w-[90%] border rounded-lg shadow" />
                 </div>
                 <div className="inputBox pb-3">
-                    <textarea name="message" placeholder="Message" className="p-5 w-[90%] border rounded-lg h-[200px]" ></textarea>
+                    <textarea name="message" placeholder="Message" className="p-5 w-[90%] border  shadow rounded-lg h-[200px]" ></textarea>
                 </div>
                 <button type="submit" className="btn w-[90%]">Submit</button>
             </form>

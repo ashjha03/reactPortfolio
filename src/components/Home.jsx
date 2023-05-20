@@ -12,17 +12,17 @@ const Home = ({theme}) => {
         <h1 className="text-8xl pb-5">Ashish Jha</h1>
         <h1 className="text-4xl">Web Developer</h1>
         <div className="socialLinks flex pt-4">
-            <a href="https://linkedin.com/in/ashjha03" target="_blank" rel="noreferrer" className="link text-4xl pr-2" ><AiFillLinkedin /></a>
-            <a href="https://github.com/ashjha03" target="_blank" rel="noreferrer" className="link text-4xl pr-2" ><AiFillGithub /></a>
-            <a href="https://twitter.com/ashjha03" target="_blank" rel="noreferrer" className="link text-4xl pr-2" ><AiFillTwitterCircle /></a>
-            <a href="https://github.com/ashishjha" target="_blank" rel="noreferrer" className="link text-4xl pr-2" ><AiFillInstagram /></a>
-            <a href="https://github.com/ashishjha" target="_blank" rel="noreferrer" className="link text-4xl pr-2" ><AiFillFacebook /></a>
+            <a href="https://linkedin.com/in/ashjha03" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-2" ><AiFillLinkedin /></a>
+            <a href="https://github.com/ashjha03" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-2" ><AiFillGithub /></a>
+            <a href="https://twitter.com/ashjha03" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-2" ><AiFillTwitterCircle /></a>
+            <a href="https://github.com/ashishjha" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-2" ><AiFillInstagram /></a>
+            <a href="https://github.com/ashishjha" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-2" ><AiFillFacebook /></a>
         </div>
         <div className="codingProfiles flex pt-4">
-            <a href="https://codechef.com/users/bakhtabar" target="_blank" rel="noreferrer" className="link text-4xl pr-5"><SiCodechef /></a>
-            <a href="https://codeforces.com/profile/bakhtabar" target="_blank" rel="noreferrer" className="link text-4xl pr-5"><SiCodeforces /></a>
-            <a href="https://leetcode.com/bakhtabar/" target="_blank" rel="noreferrer" className="link text-4xl pr-5"><SiLeetcode /></a>
-            <a href="https://auth.geeksforgeeks.org/user/ashjha03" target="_blank" rel="noreferrer" className="link text-4xl pr-5"><SiGeeksforgeeks /></a>
+            <a href="https://codechef.com/users/bakhtabar" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-5"><SiCodechef /></a>
+            <a href="https://codeforces.com/profile/bakhtabar" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-5"><SiCodeforces /></a>
+            <a href="https://leetcode.com/bakhtabar/" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-5"><SiLeetcode /></a>
+            <a href="https://auth.geeksforgeeks.org/user/ashjha03" target="_blank" rel="noreferrer" className="hover:text-5xl transition-all link text-4xl pr-5"><SiGeeksforgeeks /></a>
         </div>
       </div>
     </div>
