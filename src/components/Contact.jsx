@@ -10,15 +10,15 @@ const Contact = ({theme}) => {
       <div className="contactBox lg:flex lg:justify-center lg:items-center lg:px-10">
         <div className="contact-form lg:w-[50%] py-4">
             <div className="contact-data-head text-4xl pb-3 ">Message Me</div>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
                 <div className="inputBox pb-3">
-                    <input type="text" placeholder="Name" className="p-3 w-[90%] border shadow rounded-lg" />
+                    <input type="text" name="Name" placeholder="Name" className="p-3 w-[90%] border shadow rounded-lg" />
                 </div>
                 <div className="inputBox pb-3">
-                    <input type="email" placeholder="Email" className="p-3 w-[90%] border rounded-lg shadow" />
+                    <input type="email" name="Email" placeholder="Email" className="p-3 w-[90%] border rounded-lg shadow" />
                 </div>
                 <div className="inputBox pb-3">
-                    <input type="text" placeholder="Message" className="p-3 w-[90%] border rounded-lg shadow" />
+                    <input type="text" placeholder="Mobile Number" name="mobile" className="p-3 w-[90%] border rounded-lg shadow" />
                 </div>
                 <div className="inputBox pb-3">
                     <textarea name="message" placeholder="Message" className="p-5 w-[90%] border  shadow rounded-lg h-[200px]" ></textarea>
