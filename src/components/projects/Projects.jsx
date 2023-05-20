@@ -2,9 +2,9 @@
 
 const Projects = ({theme}) => {
   return (
-    <div data-theme={theme} className='py-10 lg:px-10 px-4'>
+    <div data-theme={theme} id="projects" className='py-10 lg:px-10 px-4'>
       <div className="project-head text-center pb-5">
-        <h1 className="text-6xl font-bold">My Work</h1>
+        <h1 className="text-7xl font-bold">My Work</h1>
       </div>
       <div className="projects pt-5 grid lg:grid-cols-3 gap-8">
         <div className="project-box shadow-lg hover:scale-105 transition-all border-2 rounded-xl">
@@ -47,7 +47,7 @@ const Projects = ({theme}) => {
             </div>
         </div>
         <div className="project-box border-2 hover:scale-105 shadow-lg rounded-xl">
-            <a href="https://shreerammedimed.netlify.app/" rel="noreferrer" target="_blank"  className="box-img mb-2 border-b">
+            <a href="/" rel="noreferrer" className="box-img mb-2 border-b">
                 <img src={require("../Portfolio.png")} className='h-[275px] rounded-t-xl rounded mx-auto' alt="Project"/>
             </a>
             <div className="box-content p-4">

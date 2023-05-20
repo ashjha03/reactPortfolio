@@ -9,20 +9,20 @@ const Navbar = ({theme, handleClick}) => {
     >
       <div className="navHead flex items-center justify-center lg:pb-0 pb-2 lg:text-start text-center">
         <img className="w-[50px] pr-3" src={require("../profile.png")} alt="" />
-        <h1 className="text-xl">Ashish Jha</h1>
+        <h1 className="text-3xl font-bold">Ashish Jha</h1>
       </div>
       <div className="navLinks">
         <a className="pr-5" href="/">
           Home
+        </a>
+        <a className="pr-5" href="#projects">
+          Projects
         </a>
         <a className="pr-5" href="#about">
           About
         </a>
         <a className="pr-5" href="#services">
           Services
-        </a>
-        <a className="pr-5" href="#projects">
-          Projects
         </a>
         <a className="pr-5" href="#contact">
           Contact
