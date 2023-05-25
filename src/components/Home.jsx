@@ -12,6 +12,10 @@ import {
   SiGeeksforgeeks,
 } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
+
 
 const Home = ({ theme }) => {
 
@@ -20,14 +24,14 @@ const Home = ({ theme }) => {
       data-theme={theme}
       className="lg:px-10 py-10 p-5 lg:flex lg:justify-around border-b"
     >
-      <div className="homeImg w-[30%] hidden lg:block">
+      <AnimationOnScroll animatePreScroll={true} initiallyVisible={true} animateIn="animate__flip" className="homeImg w-[30%] hidden lg:block">
         <img
           src={require("../assets/Prof2.png")}
           className="lg:w-[50%] lg:mx-auto"
           alt="profile"
         />
-      </div>
-      <div className="homeContent lg:w-[60%] lg:p-10">
+      </AnimationOnScroll>
+      <AnimationOnScroll animatePreScroll={true} initiallyVisible={true} animateIn="animate__fadeInRightBig"  className="homeContent lg:w-[60%] lg:p-10">
         <h1 className="text-4xl lg:text-5xl pb-5 pl-5 pt-5 lg:pt-0">Hello !</h1>
         <h1 className="text-6xl lg:text-8xl pb-5">Ashish Jha</h1>
         <TypeAnimation
@@ -120,7 +124,7 @@ const Home = ({ theme }) => {
             <SiGeeksforgeeks />
           </a>
         </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   );
 };

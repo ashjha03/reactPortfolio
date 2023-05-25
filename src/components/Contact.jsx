@@ -1,6 +1,9 @@
 import { SiGmail } from "react-icons/si";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const Contact = ({ theme }) => {
   const navigate = useNavigate();
@@ -29,7 +32,7 @@ const Contact = ({ theme }) => {
         <h1 className="text-6xl  font-bold">Contact Me</h1>
       </div>
       <div className="contactBox lg:flex lg:justify-center lg:items-center lg:px-10">
-        <div className="contact-form lg:w-[50%] py-4">
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig" className="contact-form lg:w-[50%] py-4">
           <div className="contact-data-head text-4xl pb-3 ">Message Me</div>
           <form
             data-netlify="true"
@@ -72,8 +75,8 @@ const Contact = ({ theme }) => {
               Submit
             </button>
           </form>
-        </div>
-        <div className="contact-data lg:w-[50%] py-4">
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeInRightBig" className="contact-data lg:w-[50%] py-4">
           <div className="contact-data-head text-4xl pb-3 ">Get in touch</div>
           <div className="contact-data-data">
             <p className="text-lg pb-10">
@@ -106,7 +109,7 @@ const Contact = ({ theme }) => {
               </a>
             </div>
           </div>
-        </div>
+        </AnimationOnScroll>
       </div>
     </div>
   );
